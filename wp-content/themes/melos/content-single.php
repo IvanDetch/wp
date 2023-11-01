@@ -8,7 +8,6 @@
 
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-		<?php //thinkup_input_postmedia(); ?>
 		<div class="breadcrumbs">
 			<?php echo wpcourses_breadcrumb( ' / ' ); ?>
 			
@@ -19,7 +18,6 @@
 				</div>
 			</div>
 		</div>
-		<?php //thinkup_input_postmeta(); ?>
 
 		<div class="entry-content">
 			<div class="row">
