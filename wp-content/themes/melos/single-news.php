@@ -13,10 +13,6 @@ get_header(); ?>
 
     <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'melos' ), 'after'  => '</div>', ) ); ?>
 
-    <?php //thinkup_input_nav( 'nav-below' ); ?>
-
-    <?php /* Add comments */ //thinkup_input_allowcomments(); ?>
-
 <?php endwhile; wp_reset_postdata(); ?>
 
 <?php get_footer(); ?>
